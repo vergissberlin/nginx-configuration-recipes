@@ -6,7 +6,7 @@ nginx-configuration-recipes
 <a href="http://nginx.org/">
 <img src="http://upload.wikimedia.org/wikipedia/de/thumb/2/2c/Nginx_Logo.svg/200px-Nginx_Logo.svg.png" alt="Logo nginx" align="right"></a>
 
-With this [nginx](http://nginx.org/) configurations recipes you be able to setup a new vhost in less than a minute for an cms ore framework of your choice. 
+With this [nginx](http://nginx.org/) configuration recipes you are able to setup a new virtual host in less than a minute. Take a choice of prepered configuration files for the cms or framework of your choice - include and you are done. 
 
 ## Example
 
@@ -54,6 +54,8 @@ server {
        }
 
     index index.php index.html;
+    
+    # Static files
     location = /favicon.ico {
         log_not_found off;
         access_log off;
@@ -71,7 +73,6 @@ server {
         access_log off;
         log_not_found off;
     }
-
     location ~*  \.(jpg|jpeg|png|gif|css|js|ico)$ {
         expires max;
         log_not_found off;
@@ -140,6 +141,7 @@ server {
 }
 ```
 
+As you can see, the way of incorporating of prepared configuration files is easier, nicer, cleaner, shorter and simply faster then every time to write anything new.
 
 ## Contains configurations for ...
 
