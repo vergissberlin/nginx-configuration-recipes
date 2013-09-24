@@ -1,0 +1,17 @@
+/koi-utf
+/naxsi_core.rules
+/nginx.dist.conf
+/sites-available/*.com
+/sites-available/*.eu
+/sites-available/*.de
+/win-utf
+/conf.d
+/koi-win
+/naxsi.rules
+/proxy_params
+/sites-enabled
+/fastcgi_params
+/mime.types
+/nginx.conf
+/scgi_params
+/uwsgi_params
