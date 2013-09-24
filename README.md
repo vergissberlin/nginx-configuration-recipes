@@ -152,16 +152,16 @@ As you can see, the way of incorporating of prepared configuration files is easi
 
 - **PHP**
   - _CMS_
-    - DokuWiki
-    - Drupal
-    - TYPO3 CMS
-    - TYPO3 FLOW
-    - Wordpress
+     - DokuWiki
+     - Drupal
+     - TYPO3 CMS
+     - TYPO3 FLOW
+     - Wordpress
   - _Framework_
-    - Symfony1
-    - Symfony2
-    - Zend Framework 1
-    - Zend Framework 2
+     - Symfony1
+     - Symfony2
+     - Zend Framework 1
+     - Zend Framework 2
 
 
 ## Credentials
