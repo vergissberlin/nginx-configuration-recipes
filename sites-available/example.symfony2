@@ -1,0 +1,18 @@
+server {
+	server_name		.symfony.com;
+	rewrite ^(.*) http://symfony.com$1 permanent;
+}
+
+server {
+		listen			80;
+
+		set $basename 'symfony.com';
+		set $baseuser 'dev';
+
+		access_log		/var/log/nginx/symfony.access.log;
+		error_log			/var/log/nginx/symfony.error.log;
+
+		server_name		symfony.com;
+
+		include				conf/php/framework/symfony1.conf;
+}
