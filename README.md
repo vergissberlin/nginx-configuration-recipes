@@ -1,3 +1,5 @@
+<img src="http://ebmedia.eventbrite.com/s3-s3/eventlogos/6576803/1238025969-14.jpg" alt="Logo nginx" width="120" style="margin:2px 43px" align="right">
+
 nginx-configuration-recipes 
 ===========================
 
