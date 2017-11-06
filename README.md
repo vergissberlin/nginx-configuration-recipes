@@ -16,7 +16,7 @@ With this [nginx](http://nginx.org/) configuration recipes you are able to setup
 
 server {
 		server_name		.typo3.org;
-		rewrite ^(.*) 	http://typo3.org$1 permanent;
+		return 301 http://typo3.org$request_uri;
 }
 
 server {
